@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
   return (
-    <div className="experience">
+    <div id="experience" className="experience">
         <div className="d-flex justify-content-center my-5">
             <h1>Experience</h1>
         </div>
@@ -10,11 +10,47 @@ function Experience() {
             <div className="timeline-block timeline-block-right">
                 <div className="marker"></div>
                 <div className="timeline-content">
-                    <h3>2015-2021</h3>
-                    <p>Critical Care RN,
-    Reuth Organization Full-time,
-    Apr 2015 - Aug 2021.
-    Tel Aviv-Yafo, Israel.</p>
+                <h3 className="header3">Full Time Student Higher Post Graduate Diploma In Science In Computing</h3>
+                    <h4 className="header4">Sep 2021 - Sep 2022 </h4>
+                    <p>
+                    Computer Science graduates understand how computer-based systems function and how to utilize their potential to produce sophisticated computer applications upon which our modern society depends. The dgree in Computer Science is a full-time course that encompasses all aspects of computer systems (both software and hardware) and ICT (information and communication technology), including software development, database technology, computer networks, operating systems, algorithms, security, web technology and applications.<br />
+                    <br />
+                    <h5 className="header5">Notable Projects </h5>
+Project Name: Smart Surveillance / Security, 
+Distributed Systems Project: <br />
+This project aims to design and develop distributed systems by creating a set of protocols / messages and building a reference implementation that simulates the operations of a smart, automated environment.<br />
+• Created a cost-effective system to replace CCTV system.<br />
+• Implemented technology in conjunction with a number of devices and sensors to continuously monitor closed regions 24/7, without need for a large-scale system or costly equipment (CCTV). <br />
+Technology Used:<br />
+For Service Definitions and implementations - gRPC (protos).<br />
+For Naming Services - jmDNS.<br />
+Client - Graphical User Interface (GUI)<br />
+<b>GitHub</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jamalms/Distributed-System-Project")}>https://github.com/jamalms/Distributed-System-Project</a>
+<br />
+<br />
+Project Name: iCARE <br />
+The project aims to develop a web application for telemedicine to conduct health services remotely by developing multiple applications that collect measurements and do management remotely.<br />
+• Created a Cardiac Application to track heart rate for patients with a high risk of developing arrhythmia.<br />
+• Developed an Insulin Pump Application to regulate glucose monitoring and insulin infusion in response to glucose levels.<br />
+• Designed a Ventilation Application with keen focus on assessing respiratory condition of mechanically ventilated patients by monitoring respiratory rate and oxygen saturation and directing requests to the ventilation machine.<br />
+Technology Used:<br />
+JavaScript | HTML | CSS | Angulary | Node.Js | Mongo Database | Google Maps API. <br />
+<b>GitHub</b> <a className="hyper-link" onClick={() => window.open("https://github.com/jamalms/iCare")}>https://github.com/jamalms/iCare</a>
+
+
+
+                        </p>
+                </div>
+            </div>
+            {/* - */}
+            <div className="timeline-block timeline-block-left">
+                <div className="marker"></div>
+                <div className="timeline-content">
+                <h3 className="header3">Critical Care RN,
+    Reuth Organization Full-time, Tel Aviv-Yafo, Israel.</h3>
+                    <h4 className="header4">April 2015 - Aug 2021 </h4>
+                
+    
 
     <p>During my most recent role, Major duties included:
     Providing exceptional guidance to patients / caregivers, collaborating with interdisciplinary team, overseeing daily caseload, maintaining high standards of individualised nursing care, and formulating treatment plans for patients.
@@ -42,49 +78,7 @@ function Experience() {
     <br />
     <p>Skills: Communication · Respiratory rehabilitation · Critical Care Medicine · Electrocardiography (EKG) · Critical Care Nursing · Cardiac Rehabilitation · Mechanical Ventilation · Advanced Cardiac Life Support (ACLS)</p>
 </p>
-                </div>
-            </div>
-            {/* - */}
-            <div className="timeline-block timeline-block-left">
-                <div className="marker"></div>
-                <div className="timeline-content">
-                    <h3>2021-Present</h3>
-                    <p>Student Software DeveloperStudent Software Developer
-Sep 2021 - Present · 1 yr 2 mosSep 2021 - Present · 1 yr 2 mos
-Project Name: Smart Surveillance / Security
-Distributed Systems Project:
-This project aims to design and develop distributed systems by creating a set of protocols / messages and building a reference implementation that simulates the operations of a smart, automated environment.
-• Created a cost-effective system to replace CCTV system. 
-• Implemented technology in conjunction with a number of devices and sensors to continuously monitor closed regions 24/7, without need for a large-scale system or costly equipment (CCTV). 
-Technology Used:
-For Service Definitions and implementations - gRPC (protos).
-For Naming Services - jmDNS.
-Client - Graphical User Interface (GUI)
-
-Project Name: iCARE
-The project aims to develop a web application for telemedicine to conduct health services remotely by developing multiple applications that collect measurements and do management remotely.
-• Created a Cardiac Application to track heart rate for patients with a high risk of developing arrhythmia.
-• Developed an Insulin Pump Application to regulate glucose monitoring and insulin infusion in response to glucose levels.
-• Designed a Ventilation Application with keen focus on assessing respiratory condition of mechanically ventilated patients by monitoring respiratory rate and oxygen saturation and directing requests to the ventilation machine.
-Technology Used:
-JavaScript | HTML | CSS | Angulary | Node.Js | Mongo Database | Google Maps API.Project Name: Smart Surveillance / Security Distributed Systems Project: This project aims to design and develop distributed systems by creating a set of protocols / messages and building a reference implementation that simulates the operations of a smart, automated environment. • Created a cost-effective system to replace CCTV system. • Implemented technology in conjunction with a number of devices and sensors to continuously monitor closed regions 24/7, without need for a large-scale system or costly equipment (CCTV). Technology Used: For Service Definitions and implementations - gRPC (protos). For Naming Services - jmDNS. Client - Graphical User Interface (GUI) Project Name: iCARE The project aims to develop a web application for telemedicine to conduct health services remotely by developing multiple applications that collect measurements and do management remotely. • Created a Cardiac Application to track heart rate for patients with a high risk of developing arrhythmia. • Developed an Insulin Pump Application to regulate glucose monitoring and insulin infusion in response to glucose levels. • Designed a Ventilation Application with keen focus on assessing respiratory condition of mechanically ventilated patients by monitoring respiratory rate and oxygen saturation and directing requests to the ventilation machine. Technology Used: JavaScript | HTML | CSS | Angulary | Node.Js | Mongo Database | Google Maps API.
-Computer Scince (Software Developer) StudenComputer Scince (Software Developer) Studen
-Sep 2021 - Sep 2022 · 1 yr 1 moSep 2021 - Sep 2022 · 1 yr 1 mo
-During my time over here, I built expertise in operating systems and administered UNIX based systems, MacOs, and windows systems, including server operating systems. Furthermore, I learned about various databases and created an SQL database for Businesses engaged in imports and exports.
-My achievements are as follows:
-
-Leveraged programming skills to design Clinic website.
-Developed various telemedicine apps, such as insulin pump, ventilation, and cardiac app.
-Compiled and executed clean, clear, and well-tested code for multiple projects.
-Designed client-side web applications in accordance with current and legacy web standards.
-Deployed web scripting language to manipulate and visualise data.
-Developed distributed systems by using gRPC framework.
-Enabled effective implementation of appropriate client-side frameworks and toolkits.
-Improved speed and search engines capabilities of written codes.
-Employed Grbc to create Smart Surveillance/Security System.
-Utilised SQL Server Reporting Services to generate reports.During my time over here, I built expertise in operating systems and administered UNIX based systems, MacOs, and windows systems, including server operating systems. Furthermore, I learned about various databases and created an SQL database for Businesses engaged in imports and exports. My achievements are as follows: Leveraged programming skills to design Clinic website. Developed various telemedicine apps, such as insulin pump, ventilation, and cardiac app. Compiled and executed clean, clear, and well-tested code for multiple projects. Designed client-side web applications in accordance with current and legacy web standards. Deployed web scripting language to manipulate and visualise data. Developed distributed systems by using gRPC framework. Enabled effective implementation of appropriate client-side frameworks and toolkits. Improved speed and search engines capabilities of written codes. Employed Grbc to create Smart Surveillance/Security System. Utilised SQL Server Reporting Services to generate reports.
-Skills: Linux terminal · Spring Boot · REST APIs · MongoDB · JSON · Software Development · JAVA Programmer · Node.js · React.js · Web Development · MySQL · gRPC · Core Java · JavaScript · HTML5 · Communication · algorithems and data structure (JAVA)
-                        </p>
+                    
                 </div>
             </div>
         </div>

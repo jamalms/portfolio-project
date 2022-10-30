@@ -19,7 +19,7 @@ const openPopupboxSmartSurveillance = () => { //  taskManager
  const content = (
   <>
   <img className="portfolio-image-popupbox" src={surveillance} alt="Smart Surveillance/Security System Project..."/>
-  
+  <h4>Smart Surveillance/Security System Project</h4>
   <p>The project aims to design and develop distributed systems by creating a set of protocols / messages and building a reference implementation that simulates the operations of a smart, automated environment.<br />
   • Created a cost-effective system to replace CCTV system. <br />
   • Implemented technology in conjunction with a number of devices and sensors to continuously monitor closed regions 24/7, without need for a large-scale system or costly equipment (CCTV).<br />
@@ -51,7 +51,7 @@ const openPopupboxCinema = () => { //  taskManager
   const content = (
    <>
    <img className="portfolio-image-popupbox" src={cinema} alt="Cinema Project..."/>
-   
+   <h5>Cinema App JAVA</h5>
    <p>The project aims to develop an application that allows an employee to enter a persons’ age and then display the cost of a cinema ticket for that person based on their age.  <br />
    -Allow the user to check the cost of 2 tickets.  The application should accept the age from the user 2 times, calculating and outputting the cost each time.<br />
    -Ask the user how many tickets they would like to purchase.  The application should then allow the user to check the cost of that number of tickets.<br />  
@@ -82,7 +82,7 @@ const openPopupboxMovie = () => { //  taskManager
   const content = (
    <>
    <img className="portfolio-image-popupbox" src={netflix} alt="Movie Project..."/>
-      
+      <h6>Movie Application Data Structure LinkedList JAVA</h6>
    <p>Create a Node for a new LinkedList that is capable of representing a Movie. Each Node should
 contain the following information: Movie Title, Movie Description, Genre, length in minutes,
 and rating (1 - 5 star rating) The Node class should also provide a toString method to produce
@@ -131,7 +131,7 @@ const openPopupboxiCARE = () => { //  taskManager
   const content = (
    <>
    <img className="portfolio-image-popupbox" src={iCARE} alt="iCARE Project..."/>
-
+<h5>iCARE A Telemedicine Application</h5>
    <p>
  The project aims to develop a web application for telemedicine to conduct health services remotely by developing multiple applications that collect measurements and do management remotely. <br />
  • Created a Cardiac Application to track heart rate for patients with a high risk of developing arrhythmia.<br />
@@ -162,7 +162,7 @@ const openPopupboxBinaryTree = () => { //  taskManager
   const content = (
    <>
    <img className="portfolio-image-popupbox" src={BinaryTree} alt="BinaryTree Project..."/>
-
+<h5>Binary Tree Application Data Structure JAVA</h5>
   <p>
   Create a new tree which can only store Strings. In that new class create a method which returns the length of all the strings in the tree. Create a method which prints out all the strings which are of length 5 or greater only. <br />
   Create a new Tree of Integers. Provide three methods that are able to perform the following operations: print out an even number, calculate the SUM of the node values, calculate the PRODUCT of the Node values. You should start by extending BinarySearchTree: public class IntegerBST extends BinarySearchTree Integer <br />
@@ -203,7 +203,7 @@ const openPopupboxAlgorithems = () => { //  taskManager
   const content = (
    <>
    <img className="portfolio-image-popupbox" src={algorithems} alt="Algorithems Project..."/>
-
+    <h3>Algorithems Project JAVA</h3>
   <p>
   -	Use iterative and recursive techniques to design and implement sorting and searching algorithms.<br />
 -	Conduct in depth algorithm analysis in terms of time complexity and present the results of analysis.<br />
@@ -231,12 +231,13 @@ const openPopupboxAlgorithems = () => { //  taskManager
  }
 
   return (
-    <div className="portfolio-wrapper">
+    <div id="portfolio" className="portfolio-wrapper">
     <div className="container">
       <h1 className="text-uppercase text-center py-5">portfolio</h1>
       <div className="image-box-wrapper row justify-content-center">
         <div className="portfolio-image-box" onClick={openPopupboxSmartSurveillance}>
         <img className="portfolio-image" src={surveillance} alt="Smart Surveillance/Security System Project" />
+        <h6 className="porP">Smart Surveillance System </h6>
           <div className="overflow"></div>
           <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
         </div>
@@ -248,6 +249,7 @@ const openPopupboxAlgorithems = () => { //  taskManager
               <div className="portfolio-image-box" onClick={openPopupboxCinema}> 
                 <img className="portfolio-image" src={cinema} alt="Cinema Guide Project" />
                 <div className="overflow"></div>
+                <h6 className="porP">Cinema Guide Project </h6>
                 <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                 </div>
             
@@ -256,6 +258,7 @@ const openPopupboxAlgorithems = () => { //  taskManager
             <div className="portfolio-image-box" onClick={openPopupboxMovie}> 
                 <img className="portfolio-image" src={netflix} alt="Movie Project" />
                 <div className="overflow"></div>
+                <h6 className="porP">Movie Project </h6>
                 <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                 </div>
             
@@ -264,6 +267,7 @@ const openPopupboxAlgorithems = () => { //  taskManager
             <div className="portfolio-image-box" onClick={openPopupboxiCARE}> 
                 <img className="portfolio-image" src={iCARE} alt="iCARE Project" />
                 <div className="overflow"></div>
+                <h6 className="porP">iCARE Project </h6>
                 <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                 
             </div>
@@ -274,6 +278,7 @@ const openPopupboxAlgorithems = () => { //  taskManager
              <div className="portfolio-image-box" onClick={openPopupboxBinaryTree}> 
                 <img className="portfolio-image" src={BinaryTree} alt="BinaryTree Project" />
                 <div className="overflow"></div>
+                <h6 className="porP">BinaryTree Project </h6>
                 <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                 
             </div>
@@ -282,6 +287,7 @@ const openPopupboxAlgorithems = () => { //  taskManager
              <div className="portfolio-image-box" onClick={openPopupboxAlgorithems}> 
                 <img className="portfolio-image" src={algorithems} alt="algorithems Project" />
                 <div className="overflow"></div>
+                <h6 className="porP">Algorithems Project </h6>
                 <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                 
             </div>
