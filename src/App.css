@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
+/**/
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
@@ -10,6 +10,9 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-black: #000000;
+  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-green: green;
+  --primary-dark-orange: #c45500;
 }
 
 body {
@@ -24,10 +27,8 @@ nav {
 }
 
 .logo {
-  width: 16.25rem;
- 
+  width: 14.25rem;
 }
-
 
 /*----- MENU LINKS --------*/
 nav a.nav-link {
@@ -59,7 +60,7 @@ nav ul li {
  }
 }
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -75,7 +76,7 @@ nav ul li {
   background: url(wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -90,20 +91,20 @@ nav ul li {
   align-items: center;
   text-align: center;
   z-index: 1;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .main-info h1 {
   color: var(--primary-white);
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 /*-------- TYPED TEXT ---------------*/
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 @media(max-width: 768px) {
@@ -124,6 +125,7 @@ nav ul li {
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+  font-weight: bolder;
 }
 
 .btn-main-offer:hover {
@@ -335,13 +337,13 @@ nav ul li {
   padding: 0 0.5rem;
 }
 
-.portfolio-image-box { 
+.portfolio-image-box {
   position: relative;
   margin: 1rem;
 }
 
 /*------------ OVERFLOW BOX ------------------*/
-.overflow { 
+.overflow {
   position: absolute;
    opacity: 0;
    background: var(--primary-black);
@@ -370,6 +372,11 @@ nav ul li {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.popupbox-wrapper {
+  margin-top: 10rem;
+  margin-bottom: 8rem;
 }
 
 /*------------ OVERFLOW BOX ------------------*/
@@ -412,8 +419,6 @@ nav ul li {
     }
   }
 
-
-  /************************ TESTIMONIALS *********************************/
 /************************ TESTIMONIALS *********************************/
 .testimonials {
   background-image: url(testimonials-bg.jpg);
@@ -564,8 +569,6 @@ textarea.form-control {
   color: var(--primary-green);
 }
 
-
-
 /*---------------- MEDIA -----------------------*/
 @media(max-width: 768px) {
   .contacts {
@@ -580,6 +583,54 @@ textarea.form-control {
     padding: 0 0.4rem;
   }
 }
+
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.porP{
+  text-align: center;
+  color: var(--primary-dark-orange); 
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.header5{
+  text-align: center;
+  color:var(--primary-dark-orange) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
